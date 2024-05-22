@@ -14,6 +14,7 @@ import {MatButtonModule} from '@angular/material/button';
 import { CardComponent } from './card/card.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 import { ImageViewerComponent } from './image-viewer/image-viewer.component';
+import { CounterComponent } from './counter/counter.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { ImageViewerComponent } from './image-viewer/image-viewer.component';
     NavbarComponent,
     CardComponent,
     UserProfileComponent,
-    ImageViewerComponent
+    ImageViewerComponent,
+    CounterComponent
   ],
   imports: [
     BrowserModule,
