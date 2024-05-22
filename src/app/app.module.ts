@@ -13,6 +13,7 @@ import {MatDividerModule} from '@angular/material/divider';
 import {MatButtonModule} from '@angular/material/button';
 import { CardComponent } from './card/card.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
+import { ImageViewerComponent } from './image-viewer/image-viewer.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { UserProfileComponent } from './user-profile/user-profile.component';
     AppComponent,
     NavbarComponent,
     CardComponent,
-    UserProfileComponent
+    UserProfileComponent,
+    ImageViewerComponent
   ],
   imports: [
     BrowserModule,
