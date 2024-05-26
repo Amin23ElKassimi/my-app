@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './two-way-binding.component.html',
   styleUrl: './two-way-binding.component.scss'
 })
+
 export class TwoWayBindingComponent {
 
   inputText: string = '';

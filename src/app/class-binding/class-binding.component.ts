@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class ClassBindingComponent {
 
+  isActive : boolean = false;
+  
+  toggleClass() {
+    this.isActive = !this.isActive;
+  }
 }
