@@ -18,6 +18,7 @@ import { ImageViewerComponent } from './image-viewer/image-viewer.component';
 import { CounterComponent } from './counter/counter.component';
 import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
 import { ClassBindingComponent } from './class-binding/class-binding.component';
+import { DynamicClassComponent } from './dynamic-class/dynamic-class.component';
 
 
 @NgModule({
@@ -30,6 +31,7 @@ import { ClassBindingComponent } from './class-binding/class-binding.component';
     CounterComponent,
     TwoWayBindingComponent,
     ClassBindingComponent,
+    DynamicClassComponent,
   ],
   imports: [
     BrowserModule,
