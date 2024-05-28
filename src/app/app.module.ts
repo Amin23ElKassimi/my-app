@@ -21,7 +21,6 @@ import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.compon
 import { ClassBindingComponent } from './class-binding/class-binding.component';
 import { DynamicClassComponent } from './dynamic-class/dynamic-class.component';
 import { NgifComponent } from './ngif/ngif.component';
-import { NgforComponent } from './ngfor/ngfor.component';
 
 
 @NgModule({
@@ -36,7 +35,6 @@ import { NgforComponent } from './ngfor/ngfor.component';
     ClassBindingComponent,
     DynamicClassComponent,
     NgifComponent,
-    NgforComponent,
   ],
   imports: [
     BrowserModule,
