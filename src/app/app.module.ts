@@ -19,6 +19,7 @@ import { CounterComponent } from './counter/counter.component';
 import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
 import { ClassBindingComponent } from './class-binding/class-binding.component';
 import { DynamicClassComponent } from './dynamic-class/dynamic-class.component';
+import { NgifComponent } from './ngif/ngif.component';
 
 
 @NgModule({
@@ -32,6 +33,7 @@ import { DynamicClassComponent } from './dynamic-class/dynamic-class.component';
     TwoWayBindingComponent,
     ClassBindingComponent,
     DynamicClassComponent,
+    NgifComponent,
   ],
   imports: [
     BrowserModule,
