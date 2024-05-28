@@ -1,13 +1,7 @@
 <app-navbar></app-navbar>
     <ng-container>
         <div class="container d-flex flex-wrap">
-            <app-card></app-card>
-            <app-card></app-card>
-            <app-card></app-card>
-            <app-card></app-card>
-            <app-card></app-card>
-            <app-card></app-card>
-            <app-card></app-card>
+            <app-card *ngFor="let name of names"></app-card>
         </div>  
 </ng-container>
 

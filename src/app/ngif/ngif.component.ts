@@ -5,6 +5,9 @@ import { Component } from '@angular/core';
   templateUrl: './ngif.component.html',
   styleUrl: './ngif.component.scss'
 })
+
+
+
 export class NgifComponent {
 
   isLoggedIn: boolean = true;

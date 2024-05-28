@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { CommonModule } from '@angular/common'; // Importa CommonModule
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -20,6 +21,7 @@ import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.compon
 import { ClassBindingComponent } from './class-binding/class-binding.component';
 import { DynamicClassComponent } from './dynamic-class/dynamic-class.component';
 import { NgifComponent } from './ngif/ngif.component';
+import { NgforComponent } from './ngfor/ngfor.component';
 
 
 @NgModule({
@@ -34,6 +36,7 @@ import { NgifComponent } from './ngif/ngif.component';
     ClassBindingComponent,
     DynamicClassComponent,
     NgifComponent,
+    NgforComponent,
   ],
   imports: [
     BrowserModule,
@@ -42,7 +45,7 @@ import { NgifComponent } from './ngif/ngif.component';
     MatCardModule,
     FormsModule,
     [MatButtonModule, MatDividerModule, MatIconModule],
-    
+    CommonModule,
   ],
   providers: [
     provideAnimationsAsync()
