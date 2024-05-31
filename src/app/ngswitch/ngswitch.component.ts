@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class NgswitchComponent {
 
-  status: string = "error"
+  status: string = 'error';
 
 }

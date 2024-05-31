@@ -1,1 +1,5 @@
-<p>ngswitch works!</p>
+<div [ngSwitch]="status">
+    <div *ngSwitchCase="'success'">Sucess</div>
+    <div *ngSwitchCase="'error'">Errore</div>
+    <div *ngSwitchDefault>Operazione in Corso....</div>
+ </div>
