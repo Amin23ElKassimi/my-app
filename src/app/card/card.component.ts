@@ -8,7 +8,7 @@ import { Component, Input } from '@angular/core';
 })
 export class CardComponent {
   
-  @Input() user: string = "";
+  @Input() user: any;
 
 
 }
