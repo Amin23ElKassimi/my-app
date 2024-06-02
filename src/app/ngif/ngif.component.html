@@ -1,1 +1,8 @@
+<button (click)="togle()">
+    <span [ngSwitch]="isLoggedIn">
+        <span *ngSwitchCase="true">Log out</span>
+        <span *ngSwitchCase="false">Log in</span>
+    </span>
+</button>
+
 <p *ngIf="isLoggedIn">You're Welcome!</p>

@@ -10,5 +10,12 @@ import { Component } from '@angular/core';
 
 export class NgifComponent {
 
-  isLoggedIn: boolean = true;
+  isLoggedIn: boolean = false;
+  
+  //methods
+
+  togle(){
+    this.isLoggedIn = !this.isLoggedIn
+  }
+
 }
